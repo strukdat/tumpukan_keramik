@@ -9,3 +9,9 @@ main(void){
     string data;
     awal();
     
+do{
+    cout<<endl<<endl<<"PROGRAM TUMPUKAN KERAMIK"<<endl;
+    cout<<"-----------------------"<<endl;
+    cout<<"\n1. Input\n2. Hapus\n3. Tampil\n4. Bersihkan\n5. Keluar\nMasukan pilihan : ";
+    cin>>pil;
+    switch (pil){
