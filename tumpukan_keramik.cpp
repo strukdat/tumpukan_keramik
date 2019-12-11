@@ -15,3 +15,16 @@ do{
     cout<<"\n1. Input\n2. Hapus\n3. Tampil\n4. Bersihkan\n5. Keluar\nMasukan pilihan : ";
     cin>>pil;
     switch (pil){
+            case 1:
+                cout << "Masukan nama Keramik = "; cin >> data;
+                input (data);
+                break;
+            case 2:
+                hapus();
+                break;
+            case 3:
+                tampil();
+                break;
+            case 4:
+                bersih();
+                break;
