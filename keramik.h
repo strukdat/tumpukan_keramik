@@ -40,3 +40,19 @@ void hapus(){
     else
         cout << "Tidak ada Keramik di Tumpukan\n";
 }
+void tampil(){
+    if (kosong() == 0){
+        for (int i = T.atas; i >= 0; i--)
+        {
+            cout << "\nTumpukan ke "<< i + 1 << "=" << T.data[i];
+        }
+    }
+    else
+        cout << "Tumpukan kosong\n";
+}
+
+void bersih(){
+    T.atas =- 1;
+    cout << "Tumpukan kosong!\n";
+}
+
