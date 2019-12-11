@@ -28,3 +28,10 @@ do{
             case 4:
                 bersih();
                 break;
+            case 5:
+                cout << "Terimakasih, tekan enter untuk keluar";
+        }
+        getch();
+    }
+    while (pil != 5);
+}
