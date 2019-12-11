@@ -11,3 +11,16 @@ int kosong(){
   else
     return 0;
 }
+
+int penuh(){
+  if(T.atas==max-1)
+    return 1;
+  else
+    return 0;
+}
+void input (string data){
+  if (kosong () == 1){
+    T.atas++;
+    T.data [T.atas] =data;
+     cout << "Keramik " << T.data[T.atas] <<" masuk ke Tumpukan\n";
+  }
